@@ -1,0 +1,17 @@
+SiiNunit
+{
+trailer_def : trailer_def.scs.gastank.dolly_3.gastank
+{
+	gross_trailer_weight_limit: 35000
+	chassis_mass: 9450
+	body_mass: 0
+	length: 11.1
+	axles: 5
+	volume: 40
+	body_type: gastank
+	chain_type: dolly
+
+	mass_ratio[]: 0.30
+	mass_ratio[]: 0.70
+}
+}

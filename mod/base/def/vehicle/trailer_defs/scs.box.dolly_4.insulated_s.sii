@@ -1,0 +1,17 @@
+SiiNunit
+{
+trailer_def : trailer_def.scs.box.dolly_4.insulated_s
+{
+	gross_trailer_weight_limit: 39000
+	chassis_mass: 9260
+	body_mass: 1500
+	length: 13.7
+	axles: 6
+	volume: 87
+	body_type: insulated
+	chain_type: dolly
+
+	mass_ratio[]: 0.30
+	mass_ratio[]: 0.70
+}
+}

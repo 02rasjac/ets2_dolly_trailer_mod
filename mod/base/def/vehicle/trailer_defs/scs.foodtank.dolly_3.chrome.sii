@@ -1,0 +1,17 @@
+SiiNunit
+{
+trailer_def : trailer_def.scs.foodtank.dolly_3.chrome
+{
+	gross_trailer_weight_limit: 35000
+	chassis_mass: 8990
+	body_mass: 0
+	length: 10.5
+	axles: 5
+	volume: 30
+	body_type: foodtank
+	chain_type: dolly
+
+	mass_ratio[]: 0.31
+	mass_ratio[]: 0.69
+}
+}

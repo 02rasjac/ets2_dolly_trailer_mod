@@ -1,0 +1,17 @@
+SiiNunit
+{
+trailer_def : trailer_def.scs.lowloader.dolly_2_sh.short
+{
+	gross_trailer_weight_limit: 39000
+	chassis_mass: 14800
+	body_mass: 0
+	length: 13.7
+	axles: 4
+	volume: 60
+	body_type: lowboy
+	chain_type: dolly
+
+	mass_ratio[]: 0.19
+	mass_ratio[]: 0.81
+}
+}

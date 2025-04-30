@@ -1,0 +1,17 @@
+SiiNunit
+{
+trailer_def : trailer_def.scs.silo.dolly_3_8.silo
+{
+	gross_trailer_weight_limit: 32000
+	chassis_mass: 9410
+	body_mass: 0
+	length: 8.3
+	axles: 5
+	volume: 24
+	body_type: silo
+	chain_type: dolly
+
+	mass_ratio[]: 0.30
+	mass_ratio[]: 0.70
+}
+}

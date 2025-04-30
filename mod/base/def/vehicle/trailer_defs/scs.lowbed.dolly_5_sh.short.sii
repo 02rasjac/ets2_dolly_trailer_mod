@@ -1,0 +1,17 @@
+SiiNunit
+{
+trailer_def : trailer_def.scs.lowbed.dolly_5_sh.short
+{
+	gross_trailer_weight_limit: 79000
+	chassis_mass: 17800
+	body_mass: 0
+	length: 13.4
+	axles: 7
+	volume: 72
+	body_type: lowbed
+	chain_type: dolly
+
+	mass_ratio[]: 0.16
+	mass_ratio[]: 0.84
+}
+}

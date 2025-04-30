@@ -1,0 +1,17 @@
+SiiNunit
+{
+trailer_def : trailer_def.scs.log.dolly_4.wood
+{
+	gross_trailer_weight_limit: 39000
+	chassis_mass: 8750
+	body_mass: 300
+	length: 13.7
+	axles: 6
+	volume: 87
+	body_type: log
+	chain_type: dolly
+
+	mass_ratio[]: 0.32
+	mass_ratio[]: 0.68
+}
+}

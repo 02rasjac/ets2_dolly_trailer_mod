@@ -1,0 +1,17 @@
+SiiNunit
+{
+trailer_def : trailer_def.scs.flatbed.dolly_3sa.flatbed_s
+{
+	gross_trailer_weight_limit: 35000
+	chassis_mass: 8400
+	body_mass: 100
+	length: 13.7
+	axles: 5
+	volume: 87
+	body_type: flatbed
+	chain_type: dolly
+
+	mass_ratio[]: 0.33
+	mass_ratio[]: 0.67
+}
+}

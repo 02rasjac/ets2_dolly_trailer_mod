@@ -1,6 +1,6 @@
 SiiNunit
 {
-trailer_def : trailer_def.scs.flatbed.dolly_2.brick
+trailer_def : trailer_def.scs.flatbed.dolly_2a.brick
 {
 	gross_trailer_weight_limit: 29000
 	chassis_mass: 8100

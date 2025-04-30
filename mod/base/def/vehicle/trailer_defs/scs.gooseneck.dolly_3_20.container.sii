@@ -1,0 +1,17 @@
+SiiNunit
+{
+trailer_def : trailer_def.scs.gooseneck.dolly_3_20.container
+{
+	gross_trailer_weight_limit: 35000
+	chassis_mass: 6200
+	body_mass: 0
+	length: 8.8
+	axles: 5
+	volume: 40
+	body_type: container
+	chain_type: dolly
+
+	mass_ratio[]: 0.45
+	mass_ratio[]: 0.55
+}
+}

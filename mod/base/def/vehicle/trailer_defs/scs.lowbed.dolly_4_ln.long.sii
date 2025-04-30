@@ -1,0 +1,17 @@
+SiiNunit
+{
+trailer_def : trailer_def.scs.lowbed.dolly_4_ln.long
+{
+	gross_trailer_weight_limit: 59000
+	chassis_mass: 16300
+	body_mass: 0
+	length: 16.4
+	axles: 6
+	volume: 96
+	body_type: lowbed
+	chain_type: dolly
+
+	mass_ratio[]: 0.17
+	mass_ratio[]: 0.83
+}
+}

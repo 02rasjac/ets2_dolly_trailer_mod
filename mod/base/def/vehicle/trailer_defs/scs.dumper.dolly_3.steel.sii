@@ -1,0 +1,17 @@
+SiiNunit
+{
+trailer_def : trailer_def.scs.dumper.dolly_3.steel
+{
+	gross_trailer_weight_limit: 35000
+	chassis_mass: 9450
+	body_mass: 0
+	length: 9.1
+	axles: 5
+	volume: 27
+	body_type: dumper
+	chain_type: dolly
+
+	mass_ratio[]: 0.30
+	mass_ratio[]: 0.70
+}
+}
