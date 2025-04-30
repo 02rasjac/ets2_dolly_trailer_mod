@@ -63,23 +63,48 @@ def generate_trailer_configs():
 
         for filename in os.listdir(configuration_path):
             # Doubles, B-doubles and HCT does not need a dolly inserted
-            if "single" in filename and os.fsdecode(filename).endswith(".sii"):
-                new_string = ""
-                with open(os.path.join(configuration_path, os.fsdecode(filename)), "r") as from_file:
-                    lines = from_file.readlines()
-                    for line in lines:
-                        new_line = line.replace("single", "dolly")
-                        split_new_line = new_line.split(": ")
-                        if "chassis[]" in new_line:
-                            new_string += f"\tchassis[]: {DOLLY_CHASSIS}\n" 
-                        new_string += ": ".join(split_new_line)
+            if "single" in filename:
+                # Modify the main files first (directly under /configurations)
+                if os.fsdecode(filename).endswith(".sii"):
+                    new_string = ""
+                    with open(os.path.join(configuration_path, os.fsdecode(filename)), "r") as from_file:
+                        lines = from_file.readlines()
+                        for line in lines:
+                            #TODO: Don't change icon name since the is no dolly icon
+                            new_line = line.replace("single", "dolly")
+                            split_new_line = new_line.split(": ")
+                            if "chassis[]" in new_line:
+                                new_string += f"\tchassis[]: {DOLLY_CHASSIS}\n" 
+                            new_string += ": ".join(split_new_line)
 
-                # Create directory if it doesn't exist
-                mod_file_name = os.path.join("./mod/base/def/vehicle/trailer_owned", os.fsdecode(trailer_type_folder), "configurations", filename.replace("single", "dolly"))
-                os.makedirs(os.path.dirname(mod_file_name), exist_ok=True)
+                    # Create directory if it doesn't exist
+                    mod_file_name = os.path.join("./mod/base/def/vehicle/trailer_owned", os.fsdecode(trailer_type_folder), "configurations", filename.replace("single", "dolly"))
+                    os.makedirs(os.path.dirname(mod_file_name), exist_ok=True)
 
-                # Write the modded file
-                with open(mod_file_name, "w") as to_file:
-                    to_file.write(new_string)
+                    # Write the modded file
+                    with open(mod_file_name, "w") as to_file:
+                        to_file.write(new_string)
+                # Modify the bodytypes (/configurations/single_* -> /configurations/dolly_*)
+                else:
+                    for body_file_name in os.listdir(os.path.join(configuration_path, os.fsdecode(filename))):
+                        new_string = ""
+                        with open(os.path.join(configuration_path, os.fsdecode(filename), os.fsdecode(body_file_name)), "r") as from_file:
+                            lines = from_file.readlines()
+                            for line in lines:
+                                new_line = line.replace("single", "dolly")
+                                split_new_line = new_line.split(": ")
+                                if "body[]" in new_line:
+                                    new_string += f"\tbody[]: \"\"\n" 
+                                new_string += ": ".join(split_new_line)
+
+                        # Create directory if it doesn't exist
+                        mod_file_name = os.path.join("./mod/base/def/vehicle/trailer_owned", os.fsdecode(trailer_type_folder), "configurations", filename.replace("single", "dolly"), os.fsdecode(body_file_name))
+                        os.makedirs(os.path.dirname(mod_file_name), exist_ok=True)
+
+                        # Write the modded file
+                        with open(mod_file_name, "w") as to_file:
+                            to_file.write(new_string)
+
+
 
 main()

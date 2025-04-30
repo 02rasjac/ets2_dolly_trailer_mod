@@ -1,0 +1,11 @@
+SiiNunit
+{
+trailer_body_set : .gastank
+{
+	name: "@@bs_gas_tank@@"
+	icon: "body/scs_gastank/tank_12"
+	trailer_definition: trailer_def.scs.gastank.dolly_3.gastank
+	body[]: ""
+	body[]: "/def/vehicle/trailer_owned/scs.gastank/body/tank_12.sii"
+}
+}

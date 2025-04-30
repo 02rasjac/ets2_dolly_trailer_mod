@@ -1,0 +1,11 @@
+SiiNunit
+{
+trailer_body_set : .dryvan
+{
+	name: "@@bs_dryvan@@"
+	icon: "body/scs_box/dryvan"
+	trailer_definition: trailer_def.scs.box.dolly_3s2.dryvan
+	body[]: ""
+	body[]: "/def/vehicle/trailer_owned/scs.box/body/dry_van_136.sii"
+}
+}
