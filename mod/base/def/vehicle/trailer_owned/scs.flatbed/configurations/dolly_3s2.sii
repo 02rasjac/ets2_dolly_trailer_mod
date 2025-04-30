@@ -5,7 +5,7 @@ trailer_configuration : .dolly_3s2
 	name: "@@tn_dolly_3axle_steer2@@"
 	chain_type: dolly
 	icon: "chassis/scs_flatbed/single_3s2"
-	chassis[]: /def/vehicle/trailer_owned/scs.flatbed/chassis/dolly_conv_long.sii
+	chassis[]: "/def/vehicle/trailer_owned/scs.flatbed/chassis/dolly_conv_long.sii"
 	chassis[]: "/def/vehicle/trailer_owned/scs.flatbed/chassis/ch_3_st_wh23.sii"
 }
 }

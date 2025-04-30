@@ -78,7 +78,7 @@ def generate_trailer_configs():
                             new_line = line.replace("single", "dolly")
                             split_new_line = new_line.split(": ")
                             if "chassis[]" in new_line:
-                                new_string += f"\tchassis[]: {DOLLY_CHASSIS}\n" 
+                                new_string += f"\tchassis[]: \"{DOLLY_CHASSIS}\"\n" 
                             new_string += ": ".join(split_new_line)
 
                     # Create directory if it doesn't exist
