@@ -1,0 +1,11 @@
+SiiNunit
+{
+trailer_configuration : .dolly_2s
+{
+	name: "@@tn_dolly_2axle_spread@@"
+	chain_type: dolly
+	icon: "chassis/scs_lowbed/dolly_2s"
+	chassis[]: /def/vehicle/trailer_owned/scs.flatbed/chassis/dolly_conv_long.sii
+	chassis[]: "/def/vehicle/trailer_owned/scs.lowbed/chassis/ch_2_sp.sii"
+}
+}

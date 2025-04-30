@@ -4,8 +4,8 @@ trailer_configuration : .dolly_2
 {
 	name: "@@tn_dolly_2axle@@"
 	chain_type: dolly
-	icon: "chassis/scs_flatbed/dolly_2"
+	icon: "chassis/scs_fueltank/dolly_2"
 	chassis[]: /def/vehicle/trailer_owned/scs.flatbed/chassis/dolly_conv_long.sii
-	chassis[]: "/def/vehicle/trailer_owned/scs.flatbed/chassis/ch_2.sii"
+	chassis[]: "/def/vehicle/trailer_owned/scs.fueltank/chassis/ch_2.sii"
 }
 }

@@ -1,0 +1,12 @@
+SiiNunit
+{
+trailer_configuration : .dolly_41_ln
+{
+	name: "@@tn_dolly_1_4axle_ext_long@@"
+	chain_type: dolly
+	icon: "chassis/scs_lowbed/dolly_41_ln"
+	equivalency: ext_4_1
+	chassis[]: /def/vehicle/trailer_owned/scs.flatbed/chassis/dolly_conv_long.sii
+	chassis[]: "/def/vehicle/trailer_owned/scs.lowbed/chassis/ch_4_1_ext.sii"
+}
+}

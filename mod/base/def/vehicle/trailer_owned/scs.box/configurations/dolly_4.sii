@@ -1,0 +1,11 @@
+SiiNunit
+{
+trailer_configuration : .dolly_4
+{
+	name: "@@tn_dolly_4axle_steer@@"
+	chain_type: dolly
+	icon: "chassis/scs_box/dolly_4"
+	chassis[]: /def/vehicle/trailer_owned/scs.flatbed/chassis/dolly_conv_long.sii
+	chassis[]: "/def/vehicle/trailer_owned/scs.box/chassis/ch_4.sii"
+}
+}

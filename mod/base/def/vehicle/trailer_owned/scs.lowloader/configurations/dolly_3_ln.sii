@@ -1,0 +1,12 @@
+SiiNunit
+{
+trailer_configuration : .dolly_3_ln
+{
+	name: "@@tn_dolly_3axle_ext_long@@"
+	chain_type: dolly
+	icon: "chassis/scs_lowloader/dolly_3_ln"
+	equivalency: ext_3
+	chassis[]: /def/vehicle/trailer_owned/scs.flatbed/chassis/dolly_conv_long.sii
+	chassis[]: "/def/vehicle/trailer_owned/scs.lowloader/chassis/ch_3_ext.sii"
+}
+}
