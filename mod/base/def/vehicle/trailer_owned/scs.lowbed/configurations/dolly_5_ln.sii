@@ -4,7 +4,7 @@ trailer_configuration : .dolly_5_ln
 {
 	name: "@@tn_dolly_5axle_ext_long@@"
 	chain_type: dolly
-	icon: "chassis/scs_lowbed/dolly_5_ln"
+	icon: "chassis/scs_lowbed/single_5_ln"
 	equivalency: ext_5
 	chassis[]: /def/vehicle/trailer_owned/scs.flatbed/chassis/dolly_conv_long.sii
 	chassis[]: "/def/vehicle/trailer_owned/scs.lowbed/chassis/ch_5_ext.sii"

@@ -70,7 +70,11 @@ def generate_trailer_configs():
                     with open(os.path.join(configuration_path, os.fsdecode(filename)), "r") as from_file:
                         lines = from_file.readlines()
                         for line in lines:
-                            #TODO: Don't change icon name since the is no dolly icon
+                            # Don't change icon name since there is no dolly icon
+                            if "icon" in line.split(": ")[0]:
+                                new_string += line
+                                continue
+
                             new_line = line.replace("single", "dolly")
                             split_new_line = new_line.split(": ")
                             if "chassis[]" in new_line:

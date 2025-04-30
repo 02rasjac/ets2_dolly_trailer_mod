@@ -4,7 +4,7 @@ trailer_configuration : .dolly_4_sh
 {
 	name: "@@tn_dolly_4axle_ext_short@@"
 	chain_type: dolly
-	icon: "chassis/scs_lowloader/dolly_4_sh"
+	icon: "chassis/scs_lowloader/single_4_sh"
 	equivalency: ext_4
 	chassis[]: /def/vehicle/trailer_owned/scs.flatbed/chassis/dolly_conv_long.sii
 	chassis[]: "/def/vehicle/trailer_owned/scs.lowloader/chassis/ch_4.sii"
