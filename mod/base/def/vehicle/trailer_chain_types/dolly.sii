@@ -1,0 +1,12 @@
+SiiNunit
+{
+trailer_chain_type : chain_type.dolly
+{
+	name: "@@dolly@@"
+	icon: "chain_hct"
+
+	# Price is fake, used for sorting only.
+
+	price: 5
+}
+}

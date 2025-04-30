@@ -1,0 +1,15 @@
+SiiNunit
+{
+mod_package : .manifest {
+
+   package_version: "0.02"
+   
+   author: "Apan222"
+   
+   category[]: "trailer"
+
+   icon: ""
+
+   description_file: "dolly_trailer.txt"
+}
+}
