@@ -5,7 +5,7 @@ trailer_configuration : .dolly_2_20
 	name: "@@tn_dolly_2axle_20@@"
 	chain_type: dolly
 	icon: "chassis/scs_gooseneck/ch2_20"
-	chassis[]: "/def/vehicle/trailer_owned/scs.flatbed/chassis/dolly_conv_long.sii"
+	chassis[]: "/def/vehicle/trailer_owned/scs.gooseneck/chassis/dolly_conv_long.sii"
 	chassis[]: "/def/vehicle/trailer_owned/scs.gooseneck/chassis/ch_2_8.sii"
 }
 }

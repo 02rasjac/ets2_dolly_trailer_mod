@@ -5,7 +5,7 @@ trailer_configuration : .dolly_3_1
 	name: "@@tn_dolly_1_3axle@@"
 	chain_type: dolly
 	icon: "chassis/scs_lowloader/single_3_1"
-	chassis[]: "/def/vehicle/trailer_owned/scs.flatbed/chassis/dolly_conv_long.sii"
+	chassis[]: "/def/vehicle/trailer_owned/scs.lowloader/chassis/dolly_conv_long.sii"
 	chassis[]: "/def/vehicle/trailer_owned/scs.lowloader/chassis/ch_3_1.sii"
 }
 }

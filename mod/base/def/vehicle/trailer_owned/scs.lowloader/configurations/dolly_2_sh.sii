@@ -6,7 +6,7 @@ trailer_configuration : .dolly_2_sh
 	chain_type: dolly
 	icon: "chassis/scs_lowloader/single_2_sh"
 	equivalency: ext_2
-	chassis[]: "/def/vehicle/trailer_owned/scs.flatbed/chassis/dolly_conv_long.sii"
+	chassis[]: "/def/vehicle/trailer_owned/scs.lowloader/chassis/dolly_conv_long.sii"
 	chassis[]: "/def/vehicle/trailer_owned/scs.lowloader/chassis/ch_2.sii"
 }
 }
