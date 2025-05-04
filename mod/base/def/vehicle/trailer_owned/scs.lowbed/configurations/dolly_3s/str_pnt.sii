@@ -1,0 +1,11 @@
+SiiNunit
+{
+trailer_body_set : .str_pnt
+{
+	name: "@@bs_livestock@@, @@paint@@"
+	icon: "trailer_owned/scs_livestock/body/straight_painted"
+	trailer_definition: trailer_def.scs.livestock.dolly_3s.str_pnt
+	body[]: ""
+	body[]: "/def/vehicle/trailer_owned/scs.livestock/body/straight_painted.sii"
+}
+}

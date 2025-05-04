@@ -1,0 +1,11 @@
+SiiNunit
+{
+trailer_configuration : .dolly_3b
+{
+	name: "@@tn_dolly_3axle@@"
+	chain_type: dolly
+	icon: "chassis/scs_livestock/belly_not_aero"
+	chassis[]: "/def/vehicle/trailer_owned/scs.livestock/chassis/dolly_conv_long.sii"
+	chassis[]: "/def/vehicle/trailer_owned/scs.livestock/chassis/ch_3a_belly.sii"
+}
+}

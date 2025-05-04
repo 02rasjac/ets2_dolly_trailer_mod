@@ -2,7 +2,7 @@ SiiNunit
 {
 mod_package : .manifest {
 
-   package_version: "0.03"
+   package_version: "0.04"
 
    display_name: "Drawbar trailer configurations"
    
